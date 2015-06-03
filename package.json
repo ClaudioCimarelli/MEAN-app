@@ -1,11 +1,23 @@
 {
   "name": "@claudius_dev/devenv",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.3",
+  "description": "hello-world",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "claudio",
+  "license": "ISC",
+  "dependencies": {
+    "@linclark/pkg": "^1.0.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClaudioCimarelli/MEAN-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ClaudioCimarelli/MEAN-app/issues"
+  },
+  "homepage": "https://github.com/ClaudioCimarelli/MEAN-app#readme"
 }
